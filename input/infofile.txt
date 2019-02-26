@@ -3,4 +3,4 @@ snopes: 11
 politifact: 751
 factcheck: 29
 https://www.truthorfiction.com/category/fact-checks: 96
-https://www.truthorfiction.com: 79
+https://www.truthorfiction.com: 238
