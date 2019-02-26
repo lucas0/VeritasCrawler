@@ -1,0 +1,7 @@
+JPype1
+chardet
+bs4
+lxml
+eventlet
+langdetect
+eventlet

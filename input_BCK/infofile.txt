@@ -1,0 +1,4 @@
+last_saved_page
+snopes: 1010
+politifact: 751
+factcheck: 29

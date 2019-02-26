@@ -1,0 +1,9 @@
+hyperopt
+twython
+pandas
+numpy
+scipy
+scikit-learn
+XGBoost
+gensin
+nltk
