@@ -5,3 +5,7 @@ lxml
 eventlet
 langdetect
 eventlet
+pandas
+newspaper3k
+boilerpipe
+selenium

@@ -5,5 +5,5 @@ numpy
 scipy
 scikit-learn
 XGBoost
-gensin
+gensim
 nltk

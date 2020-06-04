@@ -1,7 +1,0 @@
-hyperopt
-numpy==1.14.3
-twython
-pandas
-scikit-learn
-scipy
-nltk

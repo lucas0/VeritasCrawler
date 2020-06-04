@@ -1,6 +1,6 @@
 last_saved_page
-snopes: 11
-politifact: 751
-factcheck: 29
-https://www.truthorfiction.com/category/fact-checks: 96
-https://www.truthorfiction.com: 79
+snopes: 1100
+politifact: 286
+factcheck: 0
+https://www.truthorfiction.com/category/fact-checks: 101
+https://www.truthorfiction.com: 256

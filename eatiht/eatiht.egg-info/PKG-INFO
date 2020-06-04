@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: eatiht
+Version: 0.1.14
+Summary: A simple tool used to extract an                   article's text in html documents.
+Home-page: https://github.com/rodricios/eatiht
+Author: Rodrigo Palacios
+Author-email: rodrigopala91@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: extract extracted extracting extraction filter filtered                filtering out remove removed removing removal text                textbody body content contents sentence sentences                word words boilerplate boilerpipe delete tag tags                unsupervised classification machine learning algorithm                opening closing main article html hypertext                Rodrigo Palacios rodrigo palacios im-rodrigo im_rodrigo                rodricios
+Platform: UNKNOWN

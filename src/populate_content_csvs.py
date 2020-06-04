@@ -82,15 +82,15 @@ for dataset_name in datasets:
 							date = utils.getDate(e[6])
 							saved.loc[saved.shape[0]] = [e[0],claim,e[2],e[3],e[5],e[6],e[7],body,date]
 							print("> Body retrieved < | > Date: "+date)
-	
+
 				if (idx % 10 == 0):
-					print("Saving to file...")			
+					print("Saving to file...")
 					saved.to_csv(datasets_path+dataset_name+"_content.csv", sep='\t', header=content_header, index=False)
-		
+
 			else:
 				print("Claim Already Saved")
-	
-		print("Saving to file...")			
+
+		print("Saving to file...")
 		saved.to_csv(datasets_path+dataset_name+"_content.csv", sep='\t', header=content_header, index=False)
 	else:
 		dataset = pd.read_csv(datasets_path+dataset_name+".csv", sep='\t')
@@ -117,20 +117,20 @@ for dataset_name in datasets:
 					continue
 				maxAgreed = scoredSources.loc[maxAgreedIdx]
 				maxAgreedBodyID = maxAgreed['Body ID']
-				bodyRow = bodies.loc[bodies['Body ID'] == int(maxAgreedBodyID)]	
+				bodyRow = bodies.loc[bodies['Body ID'] == int(maxAgreedBodyID)]
 				body = bodyRow['articleBody'].item()
 				source_url = bodyRow['bodyURL'].item()
-				source_domain = utils.get_url_domain(source_url)
+				source_domain = utils.getDomain(source_url)
 				e = dataset.loc[dataset['claim'] == claim].values[0]
 				date = bodyRow['BodyDate'].item()
 				saved.loc[saved.shape[0]] = [e[0],claim,e[2],e[3],source_domain,source_url,e[7],body,date]
-				
+
 				if (idx % 10 == 0):
-					print(dataset_name+" idx "+str(idx)+". Saving to file...")			
+					print(dataset_name+" idx "+str(idx)+". Saving to file...")
 					saved.to_csv(datasets_path+dataset_name+"_content.csv", sep='\t', header=content_header, index=False)
-		
+
 			else:
 				print("Claim Already Saved")
-	
-		print("Saving to file...")			
+
+		print("Saving to file...")
 		saved.to_csv(datasets_path+dataset_name+"_content.csv", sep='\t', header=content_header, index=False)
