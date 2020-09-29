@@ -11,8 +11,12 @@
     
 The crawler for each agency is under `/input/<agency_name>`
 
-Please cite the following article if you use **VeritasCrawler**
+## If you use this code, please cite the [following publication](https://www.aclweb.org/anthology/D19-6614/):
 
-    Azevedo, Lucas, and Mohamed Moustafa. "Veritas annotator: Discovering the origin of a rumour." 
-    Proceedings of the Second Workshop on Fact Extraction and VERification (FEVER). 
-    Association for Computational Linguistics (ACL), 2019.
+    @inproceedings{azevedo2019veritas,
+      title={Veritas annotator: Discovering the origin of a rumour},
+      author={Azevedo, Lucas and Moustafa, Mohamed},
+      booktitle={Proceedings of the Second Workshop on Fact Extraction and VERification (FEVER)},
+      year={2019},
+      organization={Association for Computational Linguistics (ACL)}
+    }
