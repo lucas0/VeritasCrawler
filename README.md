@@ -1,4 +1,4 @@
-## Repo containing the code used to crawl news agencies for the [Veritas Dataset](https://github.com/lucas0/VeritasCorpus)
+## Repo containing the code used to crawl news agencies for the Veritas Dataset
 
 ### 1)install dependencies:
 
